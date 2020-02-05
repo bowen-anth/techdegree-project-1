@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.mainly {
+.main-nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -31,7 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
-.navly {
+.nav {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -40,18 +40,18 @@ a:hover {
   padding: 0;
 }
 
-.navly .name {
+.nav .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.navly li {
+.nav li {
   padding: 5px 10px 10px 10px;
 }
-.navly a {
+.nav a {
   transition: all .5s;
 }
-.navly a:hover {
+.nav a:hover {
   color: white
 }
 
